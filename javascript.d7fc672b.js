@@ -117,111 +117,60 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"assets/ogh1.mp3":[function(require,module,exports) {
-module.exports = "/ogh1.78086c2d.mp3";
-},{}],"assets/ogh10.mp3":[function(require,module,exports) {
-module.exports = "/ogh10.54657dad.mp3";
-},{}],"assets/ogh11.mp3":[function(require,module,exports) {
-module.exports = "/ogh11.f12cf1e0.mp3";
-},{}],"assets/ogh12.mp3":[function(require,module,exports) {
-module.exports = "/ogh12.9ef88017.mp3";
-},{}],"assets/ogh2.mp3":[function(require,module,exports) {
-module.exports = "/ogh2.99302a87.mp3";
-},{}],"assets/ogh3.mp3":[function(require,module,exports) {
-module.exports = "/ogh3.764fa7d7.mp3";
-},{}],"assets/ogh4.mp3":[function(require,module,exports) {
-module.exports = "/ogh4.3b8b0494.mp3";
-},{}],"assets/ogh5.mp3":[function(require,module,exports) {
-module.exports = "/ogh5.2ad1b3c7.mp3";
-},{}],"assets/ogh6.mp3":[function(require,module,exports) {
-module.exports = "/ogh6.31a8047a.mp3";
-},{}],"assets/ogh7.mp3":[function(require,module,exports) {
-module.exports = "/ogh7.974ab7f7.mp3";
-},{}],"assets/ogh8.mp3":[function(require,module,exports) {
-module.exports = "/ogh8.9b3019a6.mp3";
-},{}],"assets/ogh9.mp3":[function(require,module,exports) {
-module.exports = "/ogh9.24a78cd1.mp3";
+})({"assets/a.mp3":[function(require,module,exports) {
+module.exports = "/a.a2375f6f.mp3";
+},{}],"assets/b.mp3":[function(require,module,exports) {
+module.exports = "/b.83358479.mp3";
+},{}],"assets/as.mp3":[function(require,module,exports) {
+module.exports = "/as.28529182.mp3";
+},{}],"assets/c.mp3":[function(require,module,exports) {
+module.exports = "/c.12902a40.mp3";
+},{}],"assets/cs.mp3":[function(require,module,exports) {
+module.exports = "/cs.c7f38454.mp3";
+},{}],"assets/d.mp3":[function(require,module,exports) {
+module.exports = "/d.7c3e0166.mp3";
+},{}],"assets/ds.mp3":[function(require,module,exports) {
+module.exports = "/ds.b712f381.mp3";
+},{}],"assets/e.mp3":[function(require,module,exports) {
+module.exports = "/e.153f8bc7.mp3";
+},{}],"assets/f.mp3":[function(require,module,exports) {
+module.exports = "/f.aefce193.mp3";
+},{}],"assets/fs.mp3":[function(require,module,exports) {
+module.exports = "/fs.cbf6a0b7.mp3";
+},{}],"assets/g.mp3":[function(require,module,exports) {
+module.exports = "/g.43cc3a44.mp3";
+},{}],"assets/gs.mp3":[function(require,module,exports) {
+module.exports = "/gs.d13686db.mp3";
 },{}],"assets/*.mp3":[function(require,module,exports) {
 module.exports = {
-  "ogh1": require("./ogh1.mp3"),
-  "ogh10": require("./ogh10.mp3"),
-  "ogh11": require("./ogh11.mp3"),
-  "ogh12": require("./ogh12.mp3"),
-  "ogh2": require("./ogh2.mp3"),
-  "ogh3": require("./ogh3.mp3"),
-  "ogh4": require("./ogh4.mp3"),
-  "ogh5": require("./ogh5.mp3"),
-  "ogh6": require("./ogh6.mp3"),
-  "ogh7": require("./ogh7.mp3"),
-  "ogh8": require("./ogh8.mp3"),
-  "ogh9": require("./ogh9.mp3")
+  "a": require("./a.mp3"),
+  "b": require("./b.mp3"),
+  "as": require("./as.mp3"),
+  "c": require("./c.mp3"),
+  "cs": require("./cs.mp3"),
+  "d": require("./d.mp3"),
+  "ds": require("./ds.mp3"),
+  "e": require("./e.mp3"),
+  "f": require("./f.mp3"),
+  "fs": require("./fs.mp3"),
+  "g": require("./g.mp3"),
+  "gs": require("./gs.mp3")
 };
-},{"./ogh1.mp3":"assets/ogh1.mp3","./ogh10.mp3":"assets/ogh10.mp3","./ogh11.mp3":"assets/ogh11.mp3","./ogh12.mp3":"assets/ogh12.mp3","./ogh2.mp3":"assets/ogh2.mp3","./ogh3.mp3":"assets/ogh3.mp3","./ogh4.mp3":"assets/ogh4.mp3","./ogh5.mp3":"assets/ogh5.mp3","./ogh6.mp3":"assets/ogh6.mp3","./ogh7.mp3":"assets/ogh7.mp3","./ogh8.mp3":"assets/ogh8.mp3","./ogh9.mp3":"assets/ogh9.mp3"}],"js/javascript.js":[function(require,module,exports) {
+},{"./a.mp3":"assets/a.mp3","./b.mp3":"assets/b.mp3","./as.mp3":"assets/as.mp3","./c.mp3":"assets/c.mp3","./cs.mp3":"assets/cs.mp3","./d.mp3":"assets/d.mp3","./ds.mp3":"assets/ds.mp3","./e.mp3":"assets/e.mp3","./f.mp3":"assets/f.mp3","./fs.mp3":"assets/fs.mp3","./g.mp3":"assets/g.mp3","./gs.mp3":"assets/gs.mp3"}],"js/javascript.js":[function(require,module,exports) {
 "use strict";
 
 var _ = _interopRequireDefault(require("../assets/*.mp3"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var ogh1 = document.querySelector(".g");
-ogh1.addEventListener("click", function () {
-  var bew = new Audio(_.default.ogh1);
-  bew.play();
-});
-var ogh2 = document.querySelector(".fs");
-ogh2.addEventListener("click", function () {
-  var bew = new Audio(_.default.ogh2);
-  bew.play();
-});
-var ogh3 = document.querySelector(".f");
-ogh3.addEventListener("click", function () {
-  var bew = new Audio(_.default.ogh3);
-  bew.play();
-});
-var ogh4 = document.querySelector(".e");
-ogh4.addEventListener("click", function () {
-  var bew = new Audio(_.default.ogh4);
-  bew.play();
-});
-var ogh5 = document.querySelector(".ds");
-ogh5.addEventListener("click", function () {
-  var bew = new Audio(_.default.ogh5);
-  bew.play();
-});
-var ogh6 = document.querySelector(".d");
-ogh6.addEventListener("click", function () {
-  var bew = new Audio(_.default.ogh6);
-  bew.play();
-});
-var ogh7 = document.querySelector(".cs");
-ogh7.addEventListener("click", function () {
-  var bew = new Audio(_.default.ogh7);
-  bew.play();
-});
-var ogh8 = document.querySelector(".c");
-ogh8.addEventListener("click", function () {
-  var bew = new Audio(_.default.ogh8);
-  bew.play();
-});
-var ogh9 = document.querySelector(".b");
-ogh9.addEventListener("click", function () {
-  var bew = new Audio(_.default.ogh9);
-  bew.play();
-});
-var ogh10 = document.querySelector(".as");
-ogh10.addEventListener("click", function () {
-  var bew = new Audio(_.default.ogh10);
-  bew.play();
-});
-var ogh11 = document.querySelector(".a");
-ogh11.addEventListener("click", function () {
-  var bew = new Audio(_.default.ogh11);
-  bew.play();
-});
-var ogh12 = document.querySelector(".gs");
-ogh12.addEventListener("click", function () {
-  var bew = new Audio(_.default.ogh12);
-  bew.play();
+var keys = Array.from(document.querySelectorAll(".set li"));
+keys.forEach(function (key) {
+  var className = key.classList.item(1);
+  key.addEventListener("click", function () {
+    var path = _.default[className];
+    var audio = new Audio(path);
+    audio.play();
+  });
 });
 },{"../assets/*.mp3":"assets/*.mp3"}],"../node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
@@ -251,7 +200,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "39955" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "39409" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
